@@ -39,3 +39,13 @@ g <- gl(n, 100, n*100)
 x <- rnorm(n*100) + sqrt(as.numeric(g))
 boxplot(split(x,g), col="lavender", notch=TRUE)
 title(main="Notched Boxplots", xlab="Group", font.main=4, font.lab=1)
+
+par(bg="white")
+n <- 100
+x <- c(0,cumsum(rnorm(n)))
+y <- c(0,cumsum(rnorm(n)))
+xx <- c(0:n, n:0)
+yy <- c(x, rev(y))
+plot(xx, yy, type="n", xlab="Time", ylab="Distance")
+polygon(xx, yy, col="blue")
+title("Distance Between Brownian Motions")
