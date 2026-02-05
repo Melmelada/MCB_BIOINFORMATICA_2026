@@ -51,3 +51,8 @@ all(x==21)
 y<-c(20:29)
 x<-c(19:28)
 any(x[1:10]<y[1:10])
+
+#Ejercicio 3.10
+mean(1:10)
+help(sd) #Desviacion estandar
+help(quantile) #calcula cuantiles muestrales de un vector numérico
