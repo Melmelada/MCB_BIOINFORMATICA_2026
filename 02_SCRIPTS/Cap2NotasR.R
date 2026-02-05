@@ -10,3 +10,12 @@ getwd()
 system()
 system("ls -la")
 system("pwd")
+
+b<-5
+a+b
+a*b
+a/b
+a**b
+a^b
+sqrt(a)
+log(a)
