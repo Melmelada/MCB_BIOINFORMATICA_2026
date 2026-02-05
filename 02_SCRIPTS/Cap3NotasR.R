@@ -56,3 +56,17 @@ any(x[1:10]<y[1:10])
 mean(1:10)
 help(sd) #Desviacion estandar
 help(quantile) #calcula cuantiles muestrales de un vector numérico
+
+#Ejercicio 3.12
+edades <- c(35,35,70,17,14)
+nombres <- c("Jerry","Beth","Rick", "Summer","Morty")
+names(edades) <- nombres
+edades["Rick"]
+edades[c("Rick","Morty")]
+mean(edades)
+mean(edades[-2]) #Sin Beth el promedio es 34
+
+edades2<-c(edades[-5]) #nuevo vector sin Morty
+any(edades>75) #FALSE
+any(edades<12) #FALSE
+any(edades=12:20) #TRUE
