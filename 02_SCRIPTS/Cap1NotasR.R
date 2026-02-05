@@ -77,3 +77,12 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install(version = "3.22")
 
 BiocManager::install("ggtree")
+
+help(solve)
+help.search("clustering")
+help.search("diversity")
+help.start()
+example("hclust")
+apropos("solve")
+??DNA
+??index
