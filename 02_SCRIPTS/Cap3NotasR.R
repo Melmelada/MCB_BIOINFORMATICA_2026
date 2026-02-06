@@ -90,4 +90,9 @@ especies<-c("Typha_angustifolia", "Typha_latifolia", "Wolffia_australiana", "Sch
 numacceso<-c("GCF_048772165.1","GCF_019914945.1", "GCF_029677425.1", "GCA_037127355.1","GCA_051991545.1", "GCA_964291835.1","GCA_965641875.2", "GCA_030549335.1","GCA_963854855.1","GCA_964659625.2")
 names(numacceso)<-especies
 
-
+#Ejercicio 3.15.2
+help(as.factor)
+virus<-c("Zika_virus","African_swine_fever_virus","dengue_virus_type_1","Hepacivirus_hominis","Monkeypox_virus","SARS_coronavirus_Tor2","Zaire_ebolavirus","Escherichia_phage_T7","West_Nile_virus","Measles_morbillivirus")
+acceso<-c("GCA_000882815.1","GCA_003032895.1","GCA_000862125.1","GCA_002820845.1","GCA_000857045.1","GCA_000864885.1","GCA_000848505.1","GCA_000844825.1","GCA_000861085.1","GCA_000854845.1")
+bp<-c(10794,193886,10735,9413,196858,29751,18959,39937,10962,15894)
+names(virus)<-acceso
