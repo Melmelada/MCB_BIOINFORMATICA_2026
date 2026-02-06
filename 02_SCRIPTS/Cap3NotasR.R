@@ -85,6 +85,9 @@ edadComp[c(1,3,5,7,9)] #impares
 edadHist<-edadComp[edadComp!=max(edadComp)&edadComp!=min(edadComp)] #Quite el max y min
 hist(edadHist, col = "lightblue") #para histograma
 
-5)
+#5)
+especies<-c("Typha_angustifolia", "Typha_latifolia", "Wolffia_australiana", "Schoenoplectus_tabernaemontani","Myriophyllum_spicatum","Myriophyllum_alterniflorum","Eleocharis_parvula","Pontederia_crassipes","Nasturtium_officinale","Carex_distans")
+numacceso<-c("GCF_048772165.1","GCF_019914945.1", "GCF_029677425.1", "GCA_037127355.1","GCA_051991545.1", "GCA_964291835.1","GCA_965641875.2", "GCA_030549335.1","GCA_963854855.1","GCA_964659625.2")
+names(numacceso)<-especies
 
-                   
+
