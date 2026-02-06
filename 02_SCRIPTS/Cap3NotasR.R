@@ -70,3 +70,21 @@ edades2<-c(edades[-5]) #nuevo vector sin Morty
 any(edades>75) #FALSE
 any(edades<12) #FALSE
 any(edades=12:20) #TRUE
+
+#Ejercicio 3.12.1
+edadComp<-c(24,22,25,25,30,25,25,24,24,26)
+Comp<-c("Claudia","Caro","Itzel","Mel","Vane","Diana","Fer","Amay","Bernie","Erick")
+names(edadComp)<-Comp
+min(edadComp) #22
+max(edadComp) #30
+mean(edadComp) #25
+median(edadComp) #25
+sd(edadComp) #2.054805
+length(edadComp) #10
+edadComp[c(1,3,5,7,9)] #impares
+edadHist<-edadComp[edadComp!=max(edadComp)&edadComp!=min(edadComp)] #Quite el max y min
+hist(edadHist, col = "lightblue") #para histograma
+
+5)
+
+                   
